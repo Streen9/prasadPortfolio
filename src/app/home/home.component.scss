@@ -1,0 +1,180 @@
+.containerToFit{
+    text-size-adjust: auto!important;
+    display: flex;
+    justify-content: center;
+}
+.mainBox{
+    padding-bottom: 0;
+    //background-color: #1A1A1B;
+    border: 1px solid #0f0f0f;
+    justify-content: center;
+}
+.leftBox{
+    background: #1a1b1d;
+}
+
+#multiimage {
+    background-color:   #27282a;
+    //margin-bottom: 1.5em;
+}
+.roleName{
+    font-size: 2vw;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    background-color: #ffc905;
+}
+.userName{
+    font-size: 3vmax;
+}
+.moreTo{
+    padding-right: 6%;
+}
+.textBox{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 10px;
+    background-color: #ebebeb;
+}
+
+.highlet{
+    font-weight: 600;
+}
+
+.subTitle{
+    font-weight: 400;
+}
+.userInfo,.userExperience,.Projects{
+    padding-right: 6%;
+    text-align: justify;
+}
+.infoDiv{
+    font-size: 1vmax;
+}
+.info{
+    text-align: justify;
+}
+.Intro{
+    padding-top: 10%;
+    font-weight: 500;
+    font-size: 1.4vw;
+    border-bottom:1px solid #ffc905;
+}
+.Intro1{
+    color: #ffc905;
+    padding-left: 16%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.8vmax;
+    //margin-bottom: 0;
+}
+.borderBottom{
+    margin-left: 16%;
+    margin-bottom: 5px;
+    width: 84%;
+    border-bottom: 1px solid #ffc905;
+}
+
+.hig{
+    color: #ffc905;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1.4vmax;
+    padding-left: 16%;
+}
+.gig{
+    color: #ebebeb;
+    font-size: 1.2vmax;
+    padding-left: 16%;
+    margin-bottom: 0;  
+}
+.show{
+    background-color: #ffc905;
+    padding: 2px;
+    border-radius: 12px;
+    margin-right: 2px;
+}
+.companyName1{
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 1.3vmax;
+}
+.projectName{
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 1.3vmax;
+}
+.techs{
+    background-color:#ffc905;
+    padding:2px;
+    border-radius: 12px;
+}
+.Bar{
+    padding-left: 16%;
+}
+.angularBorder{
+    border: 1px solid white;
+    height: 1vw;
+    width: 98%;
+}
+.angularColor{
+    background-color: #ffc905;
+    height: 1vw;
+    width: 60%;
+}
+.typeColor{
+    background-color: #ffc905;
+    height: 1vw;
+    width: 70%;
+}
+.javaColor{
+    background-color: #ffc905;
+    height: 1vw;
+    width: 75%;
+}
+.htmlColor{
+    background-color: #ffc905;
+    height: 1vw;
+    width: 70%;
+}
+.cssColor{
+    background-color: #ffc905;
+    height: 1vw;
+    width: 65%;
+}
+.icons{
+    padding-top: 5px;
+    //padding-left: 5px;
+    color: #0f0f0f;
+}
+.iconsBack{
+    background-color: #ffc905;
+    padding-left: 2%;
+    padding-right:0
+}
+.contactInfo{
+    padding-top: 10%;
+    padding-left: 24%;
+}
+.iconInfo{
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: .9vmin;
+    color: #ebebeb;
+}
+@media(max-width:600px){
+    .roleName{
+        font-size: 4vw;
+    }
+    .Intro{
+        font-size: 2vw;
+    }
+    .iconsBack{
+        padding-left: 0%;
+    }
+    .iconInfo{
+        font-weight: 600;
+        font-size: 1.9vmin;
+        color: #ebebeb;
+    }
+}
